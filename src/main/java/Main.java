@@ -2,7 +2,9 @@
  * Created by matth on 03/05/2017.
  */
 public class Main {
-    public void helloFunction () {
+    public static void main (String [] args) {
         System.out.println("coucou");
     }
 }
+
+

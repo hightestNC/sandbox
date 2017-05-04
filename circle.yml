@@ -1,11 +1,10 @@
-language: java
-jdk:
-  - oraclejdk8
+machine:
+  java:
+    version: oraclejdk8
+general:
+  pre:
+    - chmod +x gradlew
 
-before_install:
-- chmod +x gradlew
-
-before_script:
-- chmod +x gradlew
-
-sccript: ./gradlew build
+  override:
+    - ./gradlew build
+    - ./gradlew run

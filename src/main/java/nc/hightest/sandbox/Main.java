@@ -4,8 +4,9 @@ package nc.hightest.sandbox;
  */
 
 public class Main {
-    public static void main (String [] args) {
+    public static boolean main (String args) {
         System.out.println("coucou");
+        return true;
     }
 }
 

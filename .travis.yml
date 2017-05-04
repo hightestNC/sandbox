@@ -10,3 +10,4 @@ before_script:
 
 script: ./gradlew build
 script: ./gradlew run
+script: ./gradlew test

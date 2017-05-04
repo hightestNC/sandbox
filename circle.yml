@@ -7,3 +7,7 @@ dependencies:
     - chmod +x gradlew
     - ./gradlew build
     - ./gradlew run
+
+test:
+  override:
+    - ./gradlew test

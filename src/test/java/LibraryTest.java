@@ -1,4 +1,5 @@
 import nc.hightest.sandbox.Library;
+import nc.hightest.sandbox.Main;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
@@ -9,8 +10,8 @@ import static org.junit.Assert.*;
  * @author matth, @date 03/05/17 15:06
  */
 public class LibraryTest {
-    @Test public void testSomeLibraryMethod() {
-        Library classUnderTest = new Library();
-        assertTrue("someLibraryMethod should return 'true'", classUnderTest.someLibraryMethod());
+    @Test public void testMainMethod() {
+        Main classUnderTest = new Main();
+        assertTrue("Methode main should return 'true'", classUnderTest.main(""));
     }
 }

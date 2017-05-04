@@ -1,10 +1,12 @@
 machine:
   java:
     version: oraclejdk8
-general:
-  pre:
+
+dependencies:
+  override:
     - chmod +x gradlew
 
+general:
   override:
     - ./gradlew build
     - ./gradlew run

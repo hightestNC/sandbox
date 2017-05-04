@@ -6,7 +6,6 @@ dependencies:
   override:
     - chmod +x gradlew
 
-general:
   override:
     - ./gradlew build
     - ./gradlew run
